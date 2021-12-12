@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte Vertical</title>
+
+    <link rel="stylesheet" href="Movimiento de materiales.css">
+
+
+</head>
+
+<body>
+
+
+
+    <form id="caja_principal">
+
+
+        <div id="cabezera" style="height:101px ;">
+            <h1>Oficina para el Reordenamiento del Transporte (OPRET)</h1>
+            <hr>
+            <h2>Departamento de Electronica</h2>
+            <hr>
+            <h3>Seccion de Trnasporte Vertical</h3>
+            <hr>
+            <h4>Traslado de Material</h4>
+        </div>
+
+
+        <div id="tabla">
+
+            <div id="contenido_ref">
+                <div id="ref">
+                    <h4> _ Ref:MAN.ALM.20211020.me.01</h4>
+                    <hr>
+                </div>
+                <div id="causa">
+
+                    <p> <b>Causa de entrega de Materiales </b></p>
+
+                </div>
+
+
+            </div>
+
+
+            <div id="contenido_seleccion">
+
+                <div id="labels">
+
+                    <label for="">Reparacion</label>
+                    <label for="Reparacion">Analisis</label>
+                    <label for="Reparacion">Prueba</label>
+                    <label for="Reparacion">Reutilizar</label>
+                    <label for="Reparacion">Traslado</label>
+                    <label for="Reparacion">Otro</label>
+
+
+                </div>
+                <div id="inputs">
+
+                    <div>
+
+
+                        <input type="text" name="Reparacion">
+                    </div>
+
+
+                    <div>
+
+
+                        <input type="text" name="Reparacion">
+                    </div>
+
+
+                    <div>
+
+
+                        <input type="text" name="Reparacion">
+                    </div>
+
+
+                    <div>
+
+
+                        <input type="text" name="Reparacion">
+                    </div>
+
+
+                    <div>
+
+
+                        <input id="traslado" type="text" name="Reparacion">
+                    </div>
+
+
+
+                    <div>
+
+                        <input id="otro" type="text" name="Reparacion">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!------Fin de la tabla-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="resonsable">
+
+            <div id="linea" style="height: 70px;">
+
+
+
+                <label for="Responsable">Responsable</label>
+                <select name="Responsable" id="">
+
+
+                    <option value="">Opret</option>
+                    <option value="">Setec</option>
+                    <option value=""> </option>
+
+
+                </select>
+
+                <label id="fecha" for="fecha">Fecha</label>
+                <input type="date">
+
+
+                <label for="telefono">Telefono</label>
+                <input id="numero" type="number">
+
+                <label for="extencion">Extencion</label>
+                <input id="extencion" type="number" placeholder="16311">
+
+
+                <hr>
+
+                <label for="linea"> Linea</label>
+                <select name="linea" id="">
+
+
+                    <option value="">L1</option>
+                    <option value="">L2</option>
+                    <option value="">L2B</option>
+                    <option value="">T1</option>
+                    <option value="">T2</option>
+                    <option value="">T3</option>
+                    <option value="">T4</option>
+                </select>
+
+
+                <label for="ubicacion">Destino</label>
+                <select name="ubicacion" id="">
+
+
+                    <option value=""></option>
+                    <option value="">Hermanas Mirabal</option>
+                    <option value="">Hermanas Mirabal</option>
+                    <option value="">Hermanas Mirabal</option>
+                    <option value="">Hermanas Mirabal</option>
+                    <option value="">Hermanas Mirabal</option>
+
+                </select>
+
+                <label for="Motivo">Motivo</label>
+                <select name="Motivo" id="motivo">
+
+                    <option value="">Mantenimiento Preventivo</option>
+                    <option value="">Mantenimiento Correctivo</option>
+
+                </select>
+
+                <label for="pt">PT</label>
+                <input id="pt" type="number" maxlength="5" style="width: 55px; ">
+
+
+            </div>
+            <div id="footer1">
+
+
+
+
+                <table id="tabla2">
+
+                    <tr >
+
+
+                        <th>Cantidad/Longitud</th>
+                        <th>Descripcion</th>
+                        <th>Ubicacion</th>
+
+                    </tr>
+
+                    <tr class="filas">
+
+                        <td> <input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"> </td>
+
+                    </tr>
+
+                    <tr class="filas">
+
+                        <td> <input type="text" style="width: 98%;" ></td>
+                        <td><input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"> </td>
+
+                    </tr>
+
+                    <tr class="filas">
+
+                        <td> <input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;" > </td>
+
+                    </tr>
+
+                    <tr class="filas">
+
+                        <td> <input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"></td>
+                        <td><input type="text" style="width: 98%;"> </td>
+
+                    </tr>
+
+                
+
+                </table>
+
+
+            
+
+
+
+
+
+
+        </div>
+
+<div id="tabla3">
+
+
+    <table class="tabla3" >
+<tr >
+
+        <th>Retirado</th>
+        <th>Operador de estacion</th>
+        <th>Seguridad de Alamcen</th>
+</tr>
+
+
+<tr>
+
+<td> <input type="text" style="width: 98%;  height: 50px; "></td>
+<td> <input type="text" style="width: 98%;  height: 50px;"></td>
+<td> <input type="text" style="width: 98%;  height: 50px;"></td>
+
+
+
+</tr>
+
+
+<tr>
+
+
+    <th>Autorizado</th>
+    <th>Seguridad de la estacion</th>
+    <th>Almacen</th>
+
+</tr>
+
+
+
+<tr>
+
+    <td> <input type="text" style="width: 98%;  height: 50px; "></td>
+    <td> <input type="text" style="width: 98%;  height: 50px;"></td>
+    <td> <input type="text" style="width: 98%;  height: 50px;"></td>
+    
+    
+    
+    </tr>
+    </table>
+
+    <button class="boton-enviar" type="submit">Enviar</button>
+</div>
+
+</div>
+
+
+
+
+    </form>
+
+
+</body>
+
+
+<button id="boton_atras" type="button"> <b> <a href="Loby del proyecto.html">Atras</a> </b></button>
+
+</html>

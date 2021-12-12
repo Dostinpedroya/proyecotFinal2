@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+body{
+
+    background-image: url(./fondo\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+
+}
+
+#Login{
+display: flex;
+height: 300px;
+width: 50%;
+background-color: rgb(255, 255, 255);
+margin: 0px auto;
+margin-top: 8%;
+flex-direction: column;
+align-items: center;
+border-radius: 5px;
+
+
+
+}
+
+.bienvenido{
+    
+    height: 600px;
+    width: 50%;
+  
+    margin-left: 25%;
+    margin-top: 4%;
+   position: fixed;
+
+
+}
+
+h1{
+color: black;
+margin-top: 100px;
+font-size: 50px;
+
+}
+ h2{
+
+    margin-top: 20px;
+    margin-bottom: -30px;
+    text-align: center;
+    color: rgb(233, 240, 248);
+    cursor: pointer;
+ }
+
+ h2:hover{
+    text-decoration: underline;
+color: blue;
+
+ }
+.encabezado{
+display: flex;
+flex-direction: ;
+justify-content:center;
+
+
+
+}
+
+
+.imagen{
+    border-radius: 110px;
+    margin-top: 10px;
+}
+
+label{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+input{
+    font-size: 15px;
+    margin-bottom: 50px;
+    background-color: rgb(228, 225, 225);
+    border-radius: 5px;
+    box-shadow: rgb(17, 17, 17) 2px 1px 3px;
+}
+ 
+input:focus{
+
+background-color: white;
+box-shadow: white 2px 1px 3px;
+
+}
+a{
+
+background-color: white;
+text-decoration: none;
+}
+
+button {
+
+
+    color: white;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(38, 38, 218);
+    border-radius: 5px;
+    border: solid rgb(45, 45, 221) ;
+    box-shadow: black 2px 2px 2px 2px;
+    cursor: pointer;
+}
+
+button a{
+
+    color: white;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(38, 38, 218);
+   
+   
+    cursor: pointer;
+
+}
+
+button:active{
+
+
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(221, 9, 9);
+    border-radius: 5px;
+    border: solid rgb(210, 210, 230) ;
+    
+}
+
+button a:active{
+
+
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(221, 9, 9);
+ 
+   
+
+
+}
+button:hover{
+border: black 2px;
+box-shadow: black 3px 5px 6px;
+
+    
+}
+p{
+   
+    color: black;
+ font-size:13px;
+   background-color: white;
+  
+}
